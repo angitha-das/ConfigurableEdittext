@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.example.configurableedittext.ConfigurableEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_first"
+        android:text="@string/app_name"
+        app:clear="true"
+        app:clear_icon="@drawable/ic_highlight_off_black_24dp" />
+    <com.example.configurableedittext.ConfigurableEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        app:clear="true"/>
+    <com.example.configurableedittext.ConfigurableEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:clear="false"
+        app:clear_icon="@drawable/ic_highlight_off_black_24dp" />
+</LinearLayout>
+

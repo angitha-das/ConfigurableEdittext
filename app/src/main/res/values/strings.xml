@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clearable Edittext</string>
+    <string name="submit">Submit</string>
+    <string name="blank_message">Field cannot left blank</string>
+</resources>
